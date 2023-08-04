@@ -1,7 +1,8 @@
-use modules::tab::tab_selection;
+use modules::password::password_taking;
 
 pub mod modules;
 
 fn main() {
-    tab_selection();
+    // tab_selection();
+    password_taking();
 }
