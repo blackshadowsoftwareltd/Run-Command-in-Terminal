@@ -1,4 +1,4 @@
-use modules::buffered::buffere;
+use modules::console::play_with_console_crates;
 
 pub mod modules;
 
@@ -7,5 +7,6 @@ fn main() {
     // password_taking();
     // multi_selection();
     // confirmation();
-    buffere();
+    // buffere();
+    play_with_console_crates();
 }
