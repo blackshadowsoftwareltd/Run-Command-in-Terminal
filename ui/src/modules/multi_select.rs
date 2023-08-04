@@ -17,12 +17,16 @@ pub fn multi_selection() {
         .interact_opt()
         .unwrap();
 
-    if selections.is_none() || selections.clone().unwrap().is_empty() {
-        println!("You did not select anything :(");
-    } else {
-        println!("You selected these things:");
-        for s in selections.unwrap() {
-            println!("  {}", multiselected[s]);
+    if let Some(selections) = selections {
+        if selections.is_empty() {
+            println!("You did not select anything :(");
+        } else {
+            println!("You selected these things:");
+            for s in selections {
+                println!("  {}", multiselected[s]);
+            }
         }
+    } else {
+        println!("You did not select anything :(");
     }
 }
