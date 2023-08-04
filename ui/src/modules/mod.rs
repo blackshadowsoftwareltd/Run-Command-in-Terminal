@@ -1,3 +1,4 @@
+pub mod buffered;
 pub mod confirm;
 pub mod multi_select;
 pub mod password;
