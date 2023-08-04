@@ -1,4 +1,4 @@
-use modules::console::play_with_console_crates;
+use modules::loading_indecator::loading_indecator;
 
 pub mod modules;
 
@@ -8,5 +8,7 @@ fn main() {
     // multi_selection();
     // confirmation();
     // buffere();
-    play_with_console_crates();
+    // play_with_console_crates();
+    loading_indecator();
+    // progress_indecator();
 }
