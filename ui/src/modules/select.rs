@@ -1,6 +1,6 @@
 use dialoguer::{theme::ColorfulTheme, Select};
 pub fn tab_selection() {
-    let selections = &[
+    let selections = vec![
         "Ice Cream",
         "Vanilla Cupcake",
         "Chocolate Muffin",

@@ -1,2 +1,3 @@
+pub mod multi_select;
 pub mod password;
-pub mod tab;
+pub mod select;
